@@ -1,7 +1,9 @@
-import Header from './Header';
-import Hero from './Hero';
+import Header from "./Header";
+import Hero from "./Hero";
 
-import Skills from './Skills';
+import Education from "./Education";
+import Experience from "./Experience";
+import Skills from "./Skills";
 
 export default function App() {
   return (
@@ -9,6 +11,8 @@ export default function App() {
       <Header />
       <Hero />
       <Skills />
+      <Experience />
+      <Education />
     </>
   );
 }

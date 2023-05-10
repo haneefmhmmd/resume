@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { ReactComponent as CloseIcon } from "../assets/Close.svg";
 import { ReactComponent as Hamburger } from "../assets/Hamburger.svg";
 export default function Header() {
