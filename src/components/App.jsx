@@ -1,8 +1,11 @@
 import Header from "./Header";
 import Hero from "./Hero";
 
+import Contact from "./Contact";
 import Education from "./Education";
 import Experience from "./Experience";
+import Footer from "./Footer";
+import Projects from "./Projects";
 import Skills from "./Skills";
 
 export default function App() {
@@ -13,6 +16,9 @@ export default function App() {
       <Skills />
       <Experience />
       <Education />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }

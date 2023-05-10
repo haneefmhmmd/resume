@@ -9,13 +9,15 @@ export default function Skills() {
         title: "Advanced PG Diploma",
         content: [
           "Specialization: Software Engineering Technology",
-          "GPA(as of now): 4.3 / 4.5",
+          "Course Duration: 2016 - 2020",
+          "GPA (as of now): 4.3 / 4.5",
         ],
       },
       {
         title: "Bachelor Of Engineering",
         content: [
           "Specialization: Electrical And Electronics Engineering",
+          "Course Duration: 2023 - 2024(Expected)",
           "CGPA: 7.9 / 10.0",
         ],
       },
