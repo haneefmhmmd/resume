@@ -1,0 +1,25 @@
+@use 'sass:map';
+$break-points: (
+  'tablet': 768px,
+);
+@mixin respond-below($break-point) {
+  @if map.has-key($break-points, $break-point) == true {
+    $break-point-val: map.get($break-points, $break-point);
+    @media (max-width: "#{$break-point-val - 1px}") {
+      @content;
+    }
+  } @else {
+    @error "Break-point #{$break-point} is part of the defined break-points";
+  }
+}
+
+@mixin respond-above($break-point) {
+  @if map.has-key($break-points, $break-point) {
+    $break-point-val: map.get($break-points, $break-point);
+    @media (min-width: $break-point-val) {
+      @content;
+    }
+  } @else {
+    @error "Break-point #{$break-point} is part of the defined break-points";
+  }
+}

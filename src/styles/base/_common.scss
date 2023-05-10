@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  @include respond-below(tablet) {
+    padding: 0 20px;
+  }
+}
