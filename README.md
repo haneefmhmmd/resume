@@ -2,6 +2,10 @@
 
 This is a web resume built using HTML, CSS, SCSS, and React.js. The sections of the resume include skills, experience, education, projects, and contact information.
 
+## Hosting
+
+This project is hosted at <a href="https://haneefmuhammad.github.io/resume" target="_blank">https://haneefmuhammad.github.io/resume</a>.
+
 ## Getting Started
 
 To start the project, run `npm run start`. To build the project in production mode, run `npm run build`. When running `npm run start`, the app will open automatically on `localhost:3000`.
@@ -12,10 +16,6 @@ To start the project, run `npm run start`. To build the project in production mo
 - CSS
 - SCSS
 - React.js
-
-## Hosting
-
-This project is hosted on [GitHub Pages](https://haneefmuhammad.github.io/resume/).
 
 ## Design
 
