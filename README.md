@@ -4,7 +4,7 @@ This is a web resume built using HTML, CSS, SCSS, and React.js. The sections of 
 
 ## Hosting
 
-This project is hosted at <a href="https://haneefmuhammad.github.io/resume" target="_blank">https://haneefmuhammad.github.io/resume</a>.
+This project is hosted at <a href="https://haneefmhmmd.github.io/resume" target="_blank">https://haneefmhmmd.github.io/resume</a>.
 
 ## Getting Started
 
