@@ -1,0 +1,27 @@
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @include respond-above(tablet){
+        &>* {
+            width: calc(100% / 3 - (40px/3));
+            margin-right: 20px;
+        }
+    
+        &>*:nth-child(3n) {
+            margin-right: 0;
+        }
+    
+        &>*:nth-child(n+4) {
+            margin-top: 20px;
+        }
+    }
+
+
+    @include respond-below(tablet){
+        width: 100%;
+        & > * + *{
+            margin-top: 20px;
+        }
+    }
+}

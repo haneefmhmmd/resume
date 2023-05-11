@@ -6,4 +6,8 @@
     border-radius: 12px;
     font-size: 16px;
     font-weight: 500;
+    transition: 0.25s linear background-color;
+    &:hover{
+        background-color: $white;
+    }
 }

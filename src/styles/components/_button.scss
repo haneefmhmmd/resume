@@ -9,10 +9,13 @@ button {
   padding: 12px 16px;
   border-radius: 12px;
   cursor: pointer;
-
+  @include respond-below(tablet) {
+      width: 100%;
+  }
   &--primary {
     display: flex;
     width: fit-content;
+    justify-content: center;
     align-items: center;
     background-color: $secondary-color;
     transition: 0.25s linear background-color;
@@ -22,6 +25,9 @@ button {
     &:active {
       background-color: $white;
       box-shadow: 0 0 4px $white;
+    }
+    @include respond-below(tablet) {
+      width: 100%;
     }
   }
 
@@ -37,5 +43,7 @@ button {
     font-size: 16px;
     font-weight: 500;
     color: $primary-color;
+    text-align: center;
   }
+
 }
