@@ -24,5 +24,3 @@ The website design has been created by me using Figma. I have utilized a modern 
 ## Author
 
 My name is Haneef Muhammad, and my LinkedIn profile is [LinkedIn](https://www.linkedin.com/in/haneefmhmmd/).
-
-![Web Resume Screenshot](screenshot.png)
