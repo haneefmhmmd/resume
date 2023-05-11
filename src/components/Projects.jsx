@@ -15,6 +15,12 @@ export default function Projects() {
       title: "Text-Parser-Chrome-Ext",
       desc: "This is a chrome extension which copies the selected text to clipboard. It contains the following features: On clicking/selecting a text, the content is copied, if any anchor tag is present in the copied line, those will be copied to your clipboard after the double quotes are converted to single quotes. On clicking any image, the corresponding details of the image such as src, alt, and prefixes in the mobile image url are copied. On clicking svg image, the svg code will be copied with double quotes converted to single quotes.",
     },
+    {
+      src: "https://raw.githubusercontent.com/haneefmhmmd/resume-v0.1/master/icons/android-chrome-512x512.png",
+      link: "https://github.com/haneefmhmmd/resume-v0.1",
+      title: "Web Resume (v0.1)",
+      desc: "This is my resume which contains detailed information about my working experience, education and my skill-set",
+    },
   ];
   return (
     <Section title="Projects" id="projects">
