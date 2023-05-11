@@ -16,8 +16,11 @@
     circle {
       transition: 0.15s linear;
     }
-    &:hover circle {
-      fill: $white;
+    &:hover {
+      box-shadow: 0px 4px 20px 0px rgba(#ffffff, 0.25);
+      circle {
+        fill: $white;      
+      }
     }
   }
 }

@@ -12,6 +12,7 @@
   padding: 16px 24px;
   border-radius: 12px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.25s linear box-shadow;
 
   cursor: pointer;
   &.open {

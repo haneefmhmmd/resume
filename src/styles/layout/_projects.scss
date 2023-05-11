@@ -1,7 +1,6 @@
 .projects-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     @include respond-above(tablet){
         &>* {
             width: calc(100% / 3 - (40px/3));
