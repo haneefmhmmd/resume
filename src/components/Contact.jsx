@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm";
 import Section from "./Section";
 export default function Contact() {
   return (
-    <Section title="Contact" className="contact">
+    <Section title="Contact" className="contact" id="contact">
       <div className="social-links">
         <a
           href="https://www.linkedin.com/in/haneefmhmmd/"

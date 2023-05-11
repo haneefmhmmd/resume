@@ -8,22 +8,44 @@ export default function Skills() {
       {
         title: "Advanced PG Diploma",
         content: [
-          "Specialization: Software Engineering Technology",
-          "Course Duration: 2016 - 2020",
-          "GPA (as of now): 4.3 / 4.5",
+          {
+            heading: "Specialization",
+            content: "Software Engineering Technology",
+          },
+          {
+            heading: "Course Duration",
+            content: "2016 - 2020",
+          },
+          {
+            heading: "GPA (as of now)",
+            content: "4.3 / 4.5",
+          },
         ],
       },
       {
         title: "Bachelor Of Engineering",
         content: [
-          "Specialization: Electrical And Electronics Engineering",
-          "Course Duration: 2023 - 2024(Expected)",
-          "CGPA: 7.9 / 10.0",
+          {
+            heading: "Specialization",
+            content: "Electrical And Electronics Engineering",
+          },
+          {
+            heading: "Course Duration",
+            content: "2023 - 2024(Expected)",
+          },
+          {
+            heading: "GPA (as of now)",
+            content: "7.9 / 10.0",
+          },
         ],
       },
     ],
   };
   return (
-    <Section title={data.title} children={<Accordion data={data.list} />} />
+    <Section
+      title={data.title}
+      children={<Accordion data={data.list} />}
+      id="education"
+    />
   );
 }

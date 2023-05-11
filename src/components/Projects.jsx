@@ -17,7 +17,7 @@ export default function Projects() {
     },
   ];
   return (
-    <Section title="Projects">
+    <Section title="Projects" id="projects">
       <div className="projects-container">
         {data.map((project) => (
           <Card

@@ -10,6 +10,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
   &__logo {
     circle {
       transition: 0.15s linear;
@@ -55,12 +57,14 @@
     position: fixed;
     top: 8px;
     width: calc(100% - 20px);
+    height: calc(100vh - 20px);
     left: 50%;
     transform: translateX(-50%);
     padding: 20px;
     background-color: $secondary-color;
     border-radius: 4px;
     padding-top: 80px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
     & > * + * {
       margin-top: 32px;
     }

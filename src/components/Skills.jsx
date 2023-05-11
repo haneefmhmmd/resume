@@ -13,7 +13,7 @@ export default function Skills() {
     "C#",
   ];
   return (
-    <Section title="Skills">
+    <Section title="Skills" id="skills">
       <ul className="skills-container">
         {data.map((skill) => (
           <li className="tag" key={uuid()}>

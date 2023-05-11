@@ -1,14 +1,19 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { ReactComponent as CloseIcon } from "../assets/Close.svg";
 import { ReactComponent as Hamburger } from "../assets/Hamburger.svg";
 export default function Header() {
   const navLinkContainer = useRef(null);
 
-  const navLinkClickHandler = (e) => {
-    const links = [...navLinkContainer.current.children];
-    links.forEach((link) => link.classList.remove("active"));
-    e.target.classList.add("active");
-  };
+  const [activeNavLink, setActiveNavLink] = useState(null);
+
+  function updateActiveNavLink() {
+    const currentHash = window.location.hash.substring(1);
+    setActiveNavLink(currentHash.toLocaleLowerCase());
+  }
+  useEffect(() => {
+    updateActiveNavLink();
+    window.addEventListener("hashchange", updateActiveNavLink);
+  }, []);
 
   const toggleBtnClickHandler = (e) => {
     const linkContainer = document.getElementById("navlinks");
@@ -29,38 +34,48 @@ export default function Header() {
           id="navlinks"
           ref={navLinkContainer}
         >
-          <a
+          {/* <a
             href="#about"
             className="header__link"
             onClick={navLinkClickHandler}
           >
             About
-          </a>
+          </a> */}
           <a
             href="#skills"
-            className="header__link"
-            onClick={navLinkClickHandler}
+            className={`header__link ${activeNavLink === "skills" && "active"}`}
           >
             Skills
           </a>
           <a
             href="#experience"
-            className="header__link"
-            onClick={navLinkClickHandler}
+            className={`header__link ${
+              activeNavLink === "experience" && "active"
+            }`}
           >
             Experience
           </a>
           <a
             href="#education"
-            className="header__link"
-            onClick={navLinkClickHandler}
+            className={`header__link ${
+              activeNavLink === "education" && "active"
+            }`}
           >
             Education
           </a>
           <a
+            href="#projects"
+            className={`header__link ${
+              activeNavLink === "projects" && "active"
+            }`}
+          >
+            Projects
+          </a>
+          <a
             href="#contact"
-            className="header__link"
-            onClick={navLinkClickHandler}
+            className={`header__link ${
+              activeNavLink === "contact" && "active"
+            }`}
           >
             Contact
           </a>
