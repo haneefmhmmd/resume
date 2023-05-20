@@ -95,18 +95,6 @@
   }
 }
 
-.header__social-icon {
-  path{
-    transition: 0.15s linear;
-    fill: rgba($color: $white, $alpha: 0.4);
-  }
-  &:hover{
-    path {
-        fill: $white;
-      }
-  }
-}
-
 .hamburger,
 .close-icon {
   width: 48px;

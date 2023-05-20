@@ -7,7 +7,7 @@ export default function Card({ src, link = "", title = "", desc = "" }) {
         <img src={src} alt={title} />
       </picture>
       <h3 className="card__title">{title}</h3>
-      <p className="card__desc">{desc.substring(0, 80).concat("...")}</p>
+      <p className="card__desc" dangerouslySetInnerHTML={{ __html: desc }} />
     </a>
   );
 }

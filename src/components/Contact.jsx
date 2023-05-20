@@ -11,6 +11,7 @@ export default function Contact() {
           href="https://www.linkedin.com/in/haneefmhmmd/"
           target="_blank"
           rel="noreferrer noopener"
+          className="icon"
         >
           <Linkedin />
         </a>
@@ -18,6 +19,7 @@ export default function Contact() {
           href="https://github.com/haneefmhmmd"
           target="_blank"
           rel="noreferrer noopener"
+          className="icon"
         >
           <Github />
         </a>
