@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.ba0aeaeb.css",
-    "main.js": "/resume/static/js/main.66ddf04e.js",
+    "main.css": "/resume/static/css/main.121f5880.css",
+    "main.js": "/resume/static/js/main.90b28810.js",
+    "static/media/NextJS.svg": "/resume/static/media/NextJS.12ffc9c5898096598e51e8bcff3f2a02.svg",
+    "static/media/Csharp.svg": "/resume/static/media/Csharp.7e5502c786806dcdb380fcbd7f3dffb2.svg",
+    "static/media/Java.svg": "/resume/static/media/Java.5386b56c3206b6bd70b1053534d73dc3.svg",
     "static/media/Github.svg": "/resume/static/media/Github.8dd622dd6b9e969ba9c4e84e5a48d11d.svg",
     "static/media/Linkedin.svg": "/resume/static/media/Linkedin.fa4d9423d20906bbfb161e4597cc931d.svg",
+    "static/media/React.svg": "/resume/static/media/React.215ded0f945a5894c94810dd48a22910.svg",
     "index.html": "/resume/index.html",
+    "static/media/Js.svg": "/resume/static/media/Js.081325c6f229605dce15142ddd948d6d.svg",
+    "static/media/Git.svg": "/resume/static/media/Git.43d387b77657117c0e407816cbf72476.svg",
+    "static/media/Css.svg": "/resume/static/media/Css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
+    "static/media/Html.svg": "/resume/static/media/Html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/Close.svg": "/resume/static/media/Close.745b5a30810274a6d23196ae058606f3.svg",
     "static/media/Hamburger.svg": "/resume/static/media/Hamburger.fdb4e6bdb55281c821819041a365fd38.svg",
     "static/media/Plus.svg": "/resume/static/media/Plus.15cdbca3dbc3c110803fcb91e3ba86ea.svg",
     "static/media/Minus.svg": "/resume/static/media/Minus.2416efeafc39aa1843099286c5ff5780.svg",
-    "main.ba0aeaeb.css.map": "/resume/static/css/main.ba0aeaeb.css.map",
-    "main.66ddf04e.js.map": "/resume/static/js/main.66ddf04e.js.map"
+    "main.121f5880.css.map": "/resume/static/css/main.121f5880.css.map",
+    "main.90b28810.js.map": "/resume/static/js/main.90b28810.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba0aeaeb.css",
-    "static/js/main.66ddf04e.js"
+    "static/css/main.121f5880.css",
+    "static/js/main.90b28810.js"
   ]
 }
