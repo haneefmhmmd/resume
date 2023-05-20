@@ -1,0 +1,119 @@
+{
+    "hero": {
+        "headline": "Hey there! My name is",
+        "name": "Haneef Muhammad.",
+        "desc": "I am a front-end developer experienced in creating performant websites and user-interfaces for webapp.",
+        "cta": {
+            "href": "#contact",
+            "text": "Contact Me"
+        }
+    },
+    "skills": {
+        "title": "Skills",
+        "list": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React.js",
+            "Next.js",
+            "Git",
+            "Java",
+            "C#"
+        ]
+    },
+    "experience": {
+        "title": "Experience",
+        "list": [
+            {
+                "title": "Junior Web Developer",
+                "content": [
+                    "- <b>Worked</b> in the revamp of 30+ web-pages for the branding website of the product called Setmore, following best practices to achieve high performance scores and ensuring the pages are mobile friendly and load fast",
+                    "- <b>Collaborated</b> with the design, content and marketing teams to ensure all developed web pages meet the requirements set-forth by the individual teams and are delivered within the deadline",
+                    "- <b>Developed</b> and maintained</b> the front-end code for 5 microservices that the product encompasses, ensuring the UI components developed are mobile friendly",
+                    "- <b>Inspected</b> the web app for UI issues along with the testing team and resolved issues identified quickly",
+                    "- <b>Accelerated</b> website migration to Next.js by developing internal tools to automate recurring tasks",
+                    "- <b>Mentored</b> 4 web development interns and conducted reviews and mock reviews for several interns",
+                    "- <b>Assisted</b> customers with their queries on the product as a support staff on a weekly basis",
+                    "- <b>Collaborated</b> with product owner/manager, designers, software developers and testers to deliver the sprint items within the given timeframe"
+                ]
+            },
+            {
+                "title": "Web Development Intern",
+                "content": [
+                    "- <b>Learned</b> about web development technologies such as HTML, CSS, SCSS, JavaScript and build tools such as gulp, webpack and developed 5 email templates, 4 web pages and 3 web apps.",
+                    "- <b>Implemented</b> performance improvements techniques such as minification and compression of html, css and js files, optimizing images, identifying and reducing layout shifts, lazy loading less-priority and below the fold assets, preloading high priority assets on the developed sites",
+                    "- <b>Reference:</b> https://github.com/haneefmhmmd/Full-Creative",
+                    "- <b>Note</b> : Due to college examinations, I had to take a break from internship in the month of September. So my internship duration is in total 3 months."
+                ]
+            }
+        ]
+    },
+    "education": {
+        "title": "Education",
+        "list": [
+            {
+                "title": "Advanced PG Diploma",
+                "content": [
+                    {
+                        "heading": "Specialization",
+                        "content": "Software Engineering Technology"
+                    },
+                    {
+                        "heading": "Course Duration",
+                        "content": "2023 - 2024(Expected)"
+                    },
+                    {
+                        "heading": "GPA (as of now)",
+                        "content": "4.3 / 4.5"
+                    }
+                ]
+            },
+            {
+                "title": "Bachelor Of Engineering",
+                "content": [
+                    {
+                        "heading": "Specialization",
+                        "content": "Electrical And Electronics Engineering"
+                    },
+                    {
+                        "heading": "Course Duration",
+                        "content": "2026 - 2020"
+                    },
+                    {
+                        "heading": "GPA (as of now)",
+                        "content": "7.9 / 10.0"
+                    }
+                ]
+            }
+        ]
+    },
+    "projects": [
+        {
+            "src": "https://raw.githubusercontent.com/haneefmhmmd/lab-report/master/project-images/report-dashboard.png",
+            "link": "https://github.com/haneefmhmmd/lab-report",
+            "title": "Lab Report",
+            "desc": "The Lab Report Generator is an application designed to simplify the process of creating laboratory reports for mid-tier pathology testing laboratories. These labs often rely on manual methods such as Word or Excel to create their reports, which can be time-consuming and prone to errors. This application provides an efficient and user-friendly way to generate professional-looking lab reports."
+        },
+        {
+            "src": "https://raw.githubusercontent.com/haneefmhmmd/resume/master/public/assets/android-chrome-512x512.png",
+            "link": "https://github.com/haneefmhmmd/resume",
+            "title": "Web Resume (v0.2)",
+            "desc": "This is a web resume built using HTML, CSS, SCSS, and React.js. The sections of the resume include skills, experience, education, projects, and contact information."
+        },
+        {
+            "src": "https://raw.githubusercontent.com/haneefmhmmd/resume-v0.1/master/icons/android-chrome-512x512.png",
+            "link": "https://github.com/haneefmhmmd/resume-v0.1",
+            "title": "Web Resume (v0.1)",
+            "desc": "This is my resume which contains detailed information about my working experience, education and my skill-set"
+        },
+        {
+            "src": "https://raw.githubusercontent.com/haneefsyedanywhere/Text-Parser-Chrome-Ext/master/icons/icon-128.png",
+            "link": "https://github.com/haneefsyedanywhere/Text-Parser-Chrome-Ext",
+            "title": "Text-Parser-Chrome-Ext",
+            "desc": "This is a chrome extension which copies the selected text to clipboard. It contains the following features: On clicking/selecting a text, the content is copied, if any anchor tag is present in the copied line, those will be copied to your clipboard after the double quotes are converted to single quotes. On clicking any image, the corresponding details of the image such as src, alt, and prefixes in the mobile image url are copied. On clicking svg image, the svg code will be copied with double quotes converted to single quotes."
+        }
+    ],
+    "footer": {
+        "desc": "Designed & Developed by Haneef Muhammad"
+    }
+}

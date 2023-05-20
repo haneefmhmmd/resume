@@ -1,33 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ContentContext } from "../context/Provider";
 import Card from "./Card";
 import Section from "./Section";
 export default function Projects() {
-  const data = [
-    {
-      src: "https://raw.githubusercontent.com/haneefmhmmd/lab-report/master/project-images/report-dashboard.png",
-      link: "https://github.com/haneefmhmmd/lab-report",
-      title: "Lab Report",
-      desc: "The Lab Report Generator is an application designed to simplify the process of creating laboratory reports for mid-tier pathology testing laboratories. These labs often rely on manual methods such as Word or Excel to create their reports, which can be time-consuming and prone to errors. This application provides an efficient and user-friendly way to generate professional-looking lab reports.",
-    },
-    {
-      src: "https://raw.githubusercontent.com/haneefmhmmd/resume/master/public/assets/android-chrome-512x512.png",
-      link: "https://github.com/haneefmhmmd/resume",
-      title: "Web Resume (v0.2)",
-      desc: "This is a web resume built using HTML, CSS, SCSS, and React.js. The sections of the resume include skills, experience, education, projects, and contact information.",
-    },
-    {
-      src: "https://raw.githubusercontent.com/haneefmhmmd/resume-v0.1/master/icons/android-chrome-512x512.png",
-      link: "https://github.com/haneefmhmmd/resume-v0.1",
-      title: "Web Resume (v0.1)",
-      desc: "This is my resume which contains detailed information about my working experience, education and my skill-set",
-    },
-    {
-      src: "https://raw.githubusercontent.com/haneefsyedanywhere/Text-Parser-Chrome-Ext/master/icons/icon-128.png",
-      link: "https://github.com/haneefsyedanywhere/Text-Parser-Chrome-Ext",
-      title: "Text-Parser-Chrome-Ext",
-      desc: "This is a chrome extension which copies the selected text to clipboard. It contains the following features: On clicking/selecting a text, the content is copied, if any anchor tag is present in the copied line, those will be copied to your clipboard after the double quotes are converted to single quotes. On clicking any image, the corresponding details of the image such as src, alt, and prefixes in the mobile image url are copied. On clicking svg image, the svg code will be copied with double quotes converted to single quotes.",
-    },
-  ];
+  const { projects: data } = useContext(ContentContext);
   return (
     <Section title="Projects" id="projects">
       <div className="projects-container">

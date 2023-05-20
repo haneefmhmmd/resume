@@ -1,16 +1,15 @@
-import React from 'react';
+import React, { useContext } from "react";
+import { ContentContext } from "../context/Provider";
 
 export default function Hero() {
+  const { hero: data } = useContext(ContentContext);
   return (
-    <section className='container hero'>
-      <h2>Hey there! My name is</h2>
-      <h1>Haneef Muhammad.</h1>
-      <h3>
-        I am a front-end developer experienced in creating performant websites and user-interfaces
-        for webapp.
-      </h3>
-      <a className='btn btn--primary hero__cta' href='#contact'>
-        <span className='btn__label'>Contact Me</span>
+    <section className="container hero">
+      <h2>{data.headline}</h2>
+      <h1>{data.name}</h1>
+      <h3>{data.desc}</h3>
+      <a className="btn btn--primary hero__cta" href={data.cta.href}>
+        <span className="btn__label">{data.cta.text}</span>
       </a>
     </section>
   );

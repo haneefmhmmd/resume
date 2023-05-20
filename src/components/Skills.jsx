@@ -1,21 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { v4 as uuid } from "uuid";
+import { ContentContext } from "../context/Provider";
 import Section from "./Section";
 export default function Skills() {
-  const data = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React.js",
-    "Next.js",
-    "Git",
-    "Java",
-    "C#",
-  ];
+  const { skills: data } = useContext(ContentContext);
   return (
-    <Section title="Skills" id="skills">
+    <Section title={data.title} id="skills">
       <ul className="skills-container">
-        {data.map((skill) => (
+        {data.list.map((skill) => (
           <li className="tag" key={uuid()}>
             <span className="tag__text">{skill}</span>
           </li>

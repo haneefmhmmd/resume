@@ -1,46 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ContentContext } from "../context/Provider";
 import Accordion from "./Accordion";
 import Section from "./Section";
 export default function Skills() {
-  const data = {
-    title: "Education",
-    list: [
-      {
-        title: "Advanced PG Diploma",
-        content: [
-          {
-            heading: "Specialization",
-            content: "Software Engineering Technology",
-          },
-          {
-            heading: "Course Duration",
-            content: "2023 - 2024(Expected)",
-          },
-          {
-            heading: "GPA (as of now)",
-            content: "4.3 / 4.5",
-          },
-        ],
-      },
-      {
-        title: "Bachelor Of Engineering",
-        content: [
-          {
-            heading: "Specialization",
-            content: "Electrical And Electronics Engineering",
-          },
-          {
-            heading: "Course Duration",
-            content: "2026 - 2020",
-          },
-          {
-            heading: "GPA (as of now)",
-            content: "7.9 / 10.0",
-          },
-        ],
-      },
-    ],
-  };
+  const { education: data } = useContext(ContentContext);
   return (
     <Section
       title={data.title}
