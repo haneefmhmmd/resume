@@ -15,9 +15,11 @@
   transition: 0.15s linear;
 
   cursor: pointer;
-  &:hover{
-    background-color: $white-100;
-    box-shadow: $box-shadow-white;
+  @include respond-above(tablet){
+    &:hover{
+      background-color: $white-100;
+      box-shadow: $box-shadow-white;
+    }
   }
   &.open {
     background-color: $white-100;
