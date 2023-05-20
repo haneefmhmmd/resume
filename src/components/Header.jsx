@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { ReactComponent as CloseIcon } from "../assets/Close.svg";
+import { ReactComponent as Github } from "../assets/Github.svg";
 import { ReactComponent as Hamburger } from "../assets/Hamburger.svg";
+import { ReactComponent as Linkedin } from "../assets/Linkedin.svg";
 export default function Header() {
   const navLinkContainer = useRef(null);
 
@@ -78,6 +80,22 @@ export default function Header() {
             }`}
           >
             Contact
+          </a>
+          <a
+            href="https://www.linkedin.com/in/haneefmhmmd/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="header__social-icon"
+          >
+            <Linkedin />
+          </a>
+          <a
+            href="https://github.com/haneefmhmmd"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="header__social-icon"
+          >
+            <Github />
           </a>
           <button className="close-icon" onClick={toggleBtnClickHandler}>
             <CloseIcon />

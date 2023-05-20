@@ -18,7 +18,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: $secondary-color;
-    transition: 0.25s linear background-color;
+    transition: 0.15s linear background-color;
     &:hover {
       background-color: $white;
     }

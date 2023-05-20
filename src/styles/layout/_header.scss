@@ -48,7 +48,10 @@
 }
 
 .header__link-container {
+
   @include respond-above(tablet) {
+    display: flex;
+    align-items: center;
     & > * + * {
       margin-left: 32px;
     }
@@ -89,6 +92,18 @@
   &:hover,
   &.active {
     color: $white;
+  }
+}
+
+.header__social-icon {
+  path{
+    transition: 0.15s linear;
+    fill: rgba($color: $white, $alpha: 0.4);
+  }
+  &:hover{
+    path {
+        fill: $white;
+      }
   }
 }
 

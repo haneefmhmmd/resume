@@ -11,6 +11,9 @@
     border-radius: 12px;
     outline: none;
     border: none;
+    &:focus{
+        background-color: $white-100;
+    }
 }
 .input--textarea{
     resize: none;
@@ -33,5 +36,10 @@
         top: calc(100% + 8px);
         font-size: 12px;
         color: $red;
+    }
+    &:focus-within{
+        .input-label{
+            color: $white;
+        }
     }
 }
