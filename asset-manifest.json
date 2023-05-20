@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.44a0b2f9.css",
-    "main.js": "/resume/static/js/main.2589b7a4.js",
+    "main.css": "/resume/static/css/main.329f2c37.css",
+    "main.js": "/resume/static/js/main.e1897e5d.js",
     "static/media/NextJS.svg": "/resume/static/media/NextJS.12ffc9c5898096598e51e8bcff3f2a02.svg",
     "static/media/Csharp.svg": "/resume/static/media/Csharp.7e5502c786806dcdb380fcbd7f3dffb2.svg",
     "static/media/Java.svg": "/resume/static/media/Java.5386b56c3206b6bd70b1053534d73dc3.svg",
@@ -17,11 +17,11 @@
     "static/media/Hamburger.svg": "/resume/static/media/Hamburger.fdb4e6bdb55281c821819041a365fd38.svg",
     "static/media/Plus.svg": "/resume/static/media/Plus.15cdbca3dbc3c110803fcb91e3ba86ea.svg",
     "static/media/Minus.svg": "/resume/static/media/Minus.2416efeafc39aa1843099286c5ff5780.svg",
-    "main.44a0b2f9.css.map": "/resume/static/css/main.44a0b2f9.css.map",
-    "main.2589b7a4.js.map": "/resume/static/js/main.2589b7a4.js.map"
+    "main.329f2c37.css.map": "/resume/static/css/main.329f2c37.css.map",
+    "main.e1897e5d.js.map": "/resume/static/js/main.e1897e5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.44a0b2f9.css",
-    "static/js/main.2589b7a4.js"
+    "static/css/main.329f2c37.css",
+    "static/js/main.e1897e5d.js"
   ]
 }
