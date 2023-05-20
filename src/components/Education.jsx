@@ -14,7 +14,7 @@ export default function Skills() {
           },
           {
             heading: "Course Duration",
-            content: "2016 - 2020",
+            content: "2023 - 2024(Expected)",
           },
           {
             heading: "GPA (as of now)",
@@ -31,7 +31,7 @@ export default function Skills() {
           },
           {
             heading: "Course Duration",
-            content: "2023 - 2024(Expected)",
+            content: "2026 - 2020",
           },
           {
             heading: "GPA (as of now)",
