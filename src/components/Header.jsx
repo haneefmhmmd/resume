@@ -85,7 +85,7 @@ export default function Header() {
             href="https://www.linkedin.com/in/haneefmhmmd/"
             target="_blank"
             rel="noreferrer noopener"
-            className="icon"
+            className="icon header_social-icon"
           >
             <Linkedin />
           </a>
@@ -93,7 +93,7 @@ export default function Header() {
             href="https://github.com/haneefmhmmd"
             target="_blank"
             rel="noreferrer noopener"
-            className="icon"
+            className="icon header_social-icon"
           >
             <Github />
           </a>
