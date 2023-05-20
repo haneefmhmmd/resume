@@ -7,7 +7,6 @@ export default function Header() {
   const navLinkContainer = useRef(null);
 
   const [activeNavLink, setActiveNavLink] = useState(null);
-
   function updateActiveNavLink() {
     const currentHash = window.location.hash.substring(1);
     setActiveNavLink(currentHash.toLocaleLowerCase());
@@ -16,6 +15,14 @@ export default function Header() {
     updateActiveNavLink();
     window.addEventListener("hashchange", updateActiveNavLink);
   }, []);
+  useEffect(() => {
+    if (
+      window.isMobile &&
+      navLinkContainer.current.classList.contains("show")
+    ) {
+      navLinkContainer.current.classList.toggle("show");
+    }
+  }, [activeNavLink]);
 
   const toggleBtnClickHandler = (e) => {
     const linkContainer = document.getElementById("navlinks");
