@@ -8,6 +8,7 @@ export default function Contact() {
     <Section title="Contact" className="contact" id="contact">
       <div className="social-links">
         <a
+          aria-label="LinkedIn Profile"
           href="https://www.linkedin.com/in/haneefmhmmd/"
           target="_blank"
           rel="noreferrer noopener"
@@ -16,6 +17,7 @@ export default function Contact() {
           <Linkedin />
         </a>
         <a
+          aria-label="Github Profile"
           href="https://github.com/haneefmhmmd"
           target="_blank"
           rel="noreferrer noopener"

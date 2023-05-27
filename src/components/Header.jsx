@@ -35,7 +35,11 @@ export default function Header() {
         <a href="./" className="header__logo">
           H
         </a>
-        <button className="hamburger" onClick={toggleBtnClickHandler}>
+        <button
+          aria-label="Toggle Header"
+          className="hamburger"
+          onClick={toggleBtnClickHandler}
+        >
           <Hamburger />
         </button>
         <nav
@@ -89,6 +93,7 @@ export default function Header() {
             Contact
           </a>
           <a
+            aria-label="LinkedIn Profile"
             href="https://www.linkedin.com/in/haneefmhmmd/"
             target="_blank"
             rel="noreferrer noopener"
@@ -97,6 +102,7 @@ export default function Header() {
             <Linkedin />
           </a>
           <a
+            aria-label="Github Profile"
             href="https://github.com/haneefmhmmd"
             target="_blank"
             rel="noreferrer noopener"
@@ -104,7 +110,11 @@ export default function Header() {
           >
             <Github />
           </a>
-          <button className="close-icon" onClick={toggleBtnClickHandler}>
+          <button
+            aria-label="Close Header"
+            className="close-icon"
+            onClick={toggleBtnClickHandler}
+          >
             <CloseIcon />
           </button>
         </nav>

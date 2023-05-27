@@ -23,6 +23,7 @@ export default function Input({
           rows="5"
           value={value}
           onChange={handleInputChange}
+          id={name.toLowerCase()}
         />
       ) : (
         <input
@@ -31,6 +32,7 @@ export default function Input({
           name={name.toLowerCase()}
           value={value}
           onChange={handleInputChange}
+          id={name.toLowerCase()}
         />
       )}
       {errorMsg !== null && <p className="input-error">{errorMsg}</p>}

@@ -25,10 +25,16 @@ export default function Accordion({ data }) {
         >
           <header className="accordion__header">
             <h3 className="accordion__title">{accordion.title}</h3>
-            <button className="btn btn--primary btn--rounded accordion__open-icon">
+            <button
+              aria-label="Open Accordion"
+              className="btn btn--primary btn--rounded accordion__open-icon"
+            >
               <Plus />
             </button>
-            <button className="btn btn--primary btn--rounded accordion__close-icon">
+            <button
+              aria-label="Close Accordion"
+              className="btn btn--primary btn--rounded accordion__close-icon"
+            >
               <Minus />
             </button>
           </header>
