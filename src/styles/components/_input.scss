@@ -1,45 +1,46 @@
-.input-label{
-    font-size: 18px;
-    color: $secondary-color;
+.input-label {
+  font-size: 18px;
+  color: $secondary-color;
 }
 
-.input{
-    background-color: $secondary-color;
-    color: $primary-color;
-    font-size: 16px;
-    padding: 12px 16px;
-    border-radius: 12px;
-    outline: none;
-    border: none;
-    &:hover,&:focus{
-        background-color: $white-100;
-    }
+.input {
+  background-color: $secondary-color;
+  color: $primary-color;
+  font-size: 16px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  &:hover,
+  &:focus {
+    background-color: $tertiary-color;
+  }
 }
-.input--textarea{
-    resize: none;
+.input--textarea {
+  resize: none;
 }
-.input::selection{
-    background-color: $primary-color;
-    color: $secondary-color;
+.input::selection {
+  background-color: $primary-color;
+  color: $secondary-color;
 }
 
-.input-wrapper{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    .input{
-        margin-top: 12px;
+.input-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  .input {
+    margin-top: 12px;
+  }
+  .input-error {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 8px);
+    font-size: 12px;
+    color: $red;
+  }
+  &:focus-within {
+    .input-label {
+      color: $white;
     }
-    .input-error{
-        position: absolute;
-        left: 0;
-        top: calc(100% + 8px);
-        font-size: 12px;
-        color: $red;
-    }
-    &:focus-within{
-        .input-label{
-            color: $white;
-        }
-    }
+  }
 }

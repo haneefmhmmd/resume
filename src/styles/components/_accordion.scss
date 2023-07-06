@@ -15,14 +15,14 @@
   transition: 0.15s linear;
 
   cursor: pointer;
-  @include respond-above(tablet){
-    &:hover{
-      background-color: $white-100;
+  @include respond-above(tablet) {
+    &:hover {
+      background-color: $tertiary-color;
       box-shadow: $box-shadow-white;
     }
   }
   &.open {
-    background-color: $white-100;
+    background-color: $tertiary-color;
     box-shadow: $box-shadow-white;
     .accordion__close-icon {
       display: flex;

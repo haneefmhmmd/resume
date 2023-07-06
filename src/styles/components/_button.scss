@@ -10,7 +10,7 @@ button {
   border-radius: 12px;
   cursor: pointer;
   @include respond-below(tablet) {
-      width: 100%;
+    width: 100%;
   }
   &--primary {
     display: flex;
@@ -20,7 +20,7 @@ button {
     background-color: $secondary-color;
     transition: 0.15s linear background-color;
     &:hover {
-      background-color: $white;
+      background-color: $tertiary-color;
     }
     &:active {
       background-color: $white;
@@ -45,5 +45,4 @@ button {
     color: $primary-color;
     text-align: center;
   }
-
 }

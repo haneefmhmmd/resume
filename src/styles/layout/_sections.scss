@@ -1,8 +1,8 @@
 .section {
   margin-top: 64px;
-  &:hover{
-    .section__title{
-      color: $white;
+  &:hover {
+    .section__title {
+      color: $tertiary-color;
     }
   }
 }
