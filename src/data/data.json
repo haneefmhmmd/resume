@@ -112,14 +112,8 @@
             "desc": "<b>Tech-Stack:</b> HTML, CSS, CSS modules, React, React-pdf"
         },
         {
-            "src": "https://raw.githubusercontent.com/haneefmhmmd/resume/master/public/assets/android-chrome-512x512.png",
-            "link": "https://github.com/haneefmhmmd/resume",
-            "title": "Web Resume (v0.2)",
-            "desc": "<b>Tech-Stack:</b> HTML, CSS, SCSS, React, React-pdf"
-        },
-        {
             "src": "https://raw.githubusercontent.com/haneefmhmmd/resume-v0.1/master/icons/android-chrome-512x512.png",
-            "link": "https://github.com/haneefmhmmd/resume-v0.1",
+            "link": "https://haneefmhmmd.github.io/resume-v0.1/",
             "title": "Web Resume (v0.1)",
             "desc": "<b>Tech-Stack:</b> HTML, CSS, SCSS"
         },
