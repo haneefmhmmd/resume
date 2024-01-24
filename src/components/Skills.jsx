@@ -7,7 +7,10 @@ import { ReactComponent as Git } from "../assets/Git.svg";
 import { ReactComponent as HTML } from "../assets/Html.svg";
 import { ReactComponent as Java } from "../assets/Java.svg";
 import { ReactComponent as JS } from "../assets/Js.svg";
+import { ReactComponent as MongoDB } from "../assets/MongoDB.svg";
+import { ReactComponent as MySQL } from "../assets/MySQL.svg";
 import { ReactComponent as Next } from "../assets/NextJS.svg";
+import { ReactComponent as Node } from "../assets/Node.js.svg";
 import { ReactComponent as React } from "../assets/React.svg";
 import { ReactComponent as SpringBoot } from "../assets/SpringBoot.svg";
 import { ContentContext } from "../context/Provider";
@@ -26,6 +29,9 @@ export default function Skills() {
     Java: <Java />,
     "C#": <CSharp />,
     "Spring Boot": <SpringBoot />,
+    MongoDB: <MongoDB />,
+    MySQL: <MySQL />,
+    "Node.js": <Node />,
   };
   return (
     <Section title={data.title} id="skills">

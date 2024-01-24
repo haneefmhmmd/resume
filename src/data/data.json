@@ -19,6 +19,9 @@
             "Next.js",
             "Java",
             "Spring Boot",
+            "Node.js",
+            "MySQL",
+            "MongoDB",
             "C#",
             "Git"
         ]
@@ -90,6 +93,18 @@
         ]
     },
     "projects": [
+        {
+            "src": "https://raw.githubusercontent.com/DineHub-Restaurant-Reservation-App/dinehub-frontend/master/snapshots/home-page.png",
+            "link": "https://github.com/orgs/DineHub-Restaurant-Reservation-App/repositories",
+            "title": "DineHub",
+            "desc": "<b>Tech-Stack:</b> HTML, SCSS, Angular, Angular Material, Spring Boot, MySQL"
+        },
+        {
+            "src": "https://raw.githubusercontent.com/Simply-Organic/simply-organic/master/simply-organic-logo.png",
+            "link": "https://simply-organic-frontend.onrender.com/",
+            "title": "Simply Organic",
+            "desc": "<b>Tech-Stack:</b> HTML, SCSS, Angular, Node.js, mongoDB"
+        },
         {
             "src": "https://raw.githubusercontent.com/haneefmhmmd/lab-report/master/project-images/report-dashboard.png",
             "link": "https://github.com/haneefmhmmd/lab-report",
