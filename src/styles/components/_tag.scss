@@ -2,12 +2,12 @@
   padding: 16px 20px;
   display: inline-flex;
   align-items: center;
-  background-color: $secondary-color;
+  background-image: linear-gradient($secondary-color, $secondary-color);
   color: $primary-color;
   border-radius: 12px;
   font-size: 16px;
   font-weight: 500;
-  transition: 0.1s linear background-color;
+  transition: 0.35s linear all;
   svg {
     width: 48px;
     height: 48px;
@@ -16,6 +16,6 @@
     margin-left: 4px;
   }
   &:hover {
-    background: $hover-gradient;
+    background-image: $hover-gradient;
   }
 }

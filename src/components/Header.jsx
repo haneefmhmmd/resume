@@ -32,7 +32,7 @@ export default function Header() {
   return (
     <header className="header__container">
       <div className="container header">
-        <a href="./" className="header__logo">
+        <a href="#" className="header__logo">
           H
         </a>
         <button
