@@ -12,14 +12,6 @@ export default function Accordion({ data }) {
       }
     });
     e.currentTarget.classList.toggle("open");
-    setMaxHeightOfAccordion(e.currentTarget);
-  };
-
-  const setMaxHeightOfAccordion = (accordion) => {
-    const computedStyle = window.getComputedStyle(accordion);
-    const actualHeight = parseFloat(computedStyle.height);
-
-    accordion.style.maxHeight = actualHeight + "px";
   };
 
   return (
