@@ -1,10 +1,19 @@
 .section {
   margin-top: 64px;
-  &:hover {
-    .section__title {
-      color: $tertiary-color;
-    }
-  }
+  // &:hover {
+  //   .section__title {
+  //     /* Create the gradient. */
+  //     background-image: $hover-gradient;
+
+  //     /* Set the background size and repeat properties. */
+  //     background-size: 100%;
+  //     background-repeat: repeat;
+  //     -webkit-background-clip: text;
+  //     -webkit-text-fill-color: transparent;
+  //     -moz-background-clip: text;
+  //     -moz-text-fill-color: transparent;
+  //   }
+  // }
 }
 
 .section__header {
@@ -15,6 +24,7 @@
 .section__title {
   font-size: 32px;
   font-weight: 600;
-  transition: 0.15s linear;
+  transition: background-image 0.15s linear;
+  background-image: $primary-color;
   color: $secondary-color;
 }
