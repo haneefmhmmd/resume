@@ -1,3 +1,4 @@
 * {
-  font-family: 'M PLUS Rounded 1c', sans-serif !important;
+  font-family: Inter, sans-serif !important;
+  font-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
 }
