@@ -31,12 +31,6 @@ export default function Accordion({ data }) {
             >
               <Plus />
             </button>
-            <button
-              aria-label="Close Accordion"
-              className="btn btn--primary btn--rounded accordion__close-icon"
-            >
-              <Minus />
-            </button>
           </header>
           <div className="accordion__body">
             {accordion.content.map((item) => {

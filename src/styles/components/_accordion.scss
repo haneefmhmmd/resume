@@ -23,14 +23,15 @@
   &.open {
     background-color: $tertiary-color;
     box-shadow: $box-shadow-white;
-    .accordion__close-icon {
-      display: flex;
-    }
+
     .accordion__open-icon {
-      display: none;
+      transform: rotate(-45deg);
+      &:hover {
+        background-color: $secondary-color;
+      }
     }
     .accordion__body {
-      max-height: initial;
+      max-height: fit-content;
       margin-top: 12px;
     }
   }
@@ -38,6 +39,9 @@
 
 .accordion__close-icon {
   display: none;
+}
+.accordion__open-icon {
+  transition: transform 0.5s ease;
 }
 
 .accordion__header {
