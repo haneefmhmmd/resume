@@ -31,7 +31,7 @@
       }
     }
     .accordion__body {
-      max-height: initial;
+      grid-template-rows: 1fr;
       margin-top: 12px;
     }
   }
@@ -56,13 +56,16 @@
 }
 
 .accordion__body {
-  max-height: 0;
-  margin-top: 0;
-  overflow: hidden;
-  transition: all 0.35s linear;
+  // https://keithjgrant.com/posts/2023/04/transitioning-to-height-auto/
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: all 0.5s;
 
-  & > * + * {
-    margin-top: 8px;
+  & > div {
+    overflow: hidden;
+    & > * + * {
+      margin-top: 8px;
+    }
   }
 }
 

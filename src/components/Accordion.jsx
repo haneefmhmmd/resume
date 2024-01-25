@@ -32,23 +32,27 @@ export default function Accordion({ data }) {
             </button>
           </header>
           <div className="accordion__body">
-            {accordion.content.map((item) => {
-              if (Object.prototype.toString.call(item) === "[object Object]") {
+            <div>
+              {accordion.content.map((item) => {
+                if (
+                  Object.prototype.toString.call(item) === "[object Object]"
+                ) {
+                  return (
+                    <p className="accordion_content" key={uuid()}>
+                      <b>{item.heading}: </b>
+                      {item.content}
+                    </p>
+                  );
+                }
                 return (
-                  <p className="accordion_content" key={uuid()}>
-                    <b>{item.heading}: </b>
-                    {item.content}
-                  </p>
+                  <p
+                    className="accordion_content"
+                    key={uuid()}
+                    dangerouslySetInnerHTML={{ __html: item }}
+                  />
                 );
-              }
-              return (
-                <p
-                  className="accordion_content"
-                  key={uuid()}
-                  dangerouslySetInnerHTML={{ __html: item }}
-                />
-              );
-            })}
+              })}
+            </div>
           </div>
         </article>
       ))}
