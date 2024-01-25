@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { v4 as uuid } from "uuid";
-import { ReactComponent as Minus } from "../assets/Minus.svg";
 import { ReactComponent as Plus } from "../assets/Plus.svg";
 
 export default function Accordion({ data }) {
@@ -13,6 +12,14 @@ export default function Accordion({ data }) {
       }
     });
     e.currentTarget.classList.toggle("open");
+    setMaxHeightOfAccordion(e.currentTarget);
+  };
+
+  const setMaxHeightOfAccordion = (accordion) => {
+    const computedStyle = window.getComputedStyle(accordion);
+    const actualHeight = parseFloat(computedStyle.height);
+
+    accordion.style.maxHeight = actualHeight + "px";
   };
 
   return (
