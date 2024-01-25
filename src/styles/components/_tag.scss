@@ -1,16 +1,16 @@
 .tag {
-  padding: 16px 20px;
+  padding: 12px;
   display: inline-flex;
   align-items: center;
   background-image: linear-gradient($secondary-color, $secondary-color);
   color: $primary-color;
   border-radius: 12px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   transition: 0.35s linear all;
   svg {
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32px;
   }
   & > * + * {
     margin-left: 4px;
