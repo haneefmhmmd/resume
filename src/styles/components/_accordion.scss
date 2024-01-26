@@ -30,6 +30,7 @@
 }
 .accordion__open-icon {
   transition: transform 0.5s ease;
+  flex-shrink: 0;
 }
 
 .accordion__header {
