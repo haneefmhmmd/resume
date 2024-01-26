@@ -33,7 +33,7 @@ export default function Header() {
   return (
     <header className="header__container">
       <div className="container header">
-        <a href="#" className="header__logo">
+        <a href="#home" rel="noreferrer" className="header__logo">
           <HeaderLogo />
         </a>
         <button
@@ -57,12 +57,14 @@ export default function Header() {
           </a> */}
           <a
             href="#skills"
+            rel="noreferrer"
             className={`header__link ${activeNavLink === "skills" && "active"}`}
           >
             Skills
           </a>
           <a
             href="#experience"
+            rel="noreferrer"
             className={`header__link ${
               activeNavLink === "experience" && "active"
             }`}
@@ -71,6 +73,7 @@ export default function Header() {
           </a>
           <a
             href="#education"
+            rel="noreferrer"
             className={`header__link ${
               activeNavLink === "education" && "active"
             }`}
@@ -79,6 +82,7 @@ export default function Header() {
           </a>
           <a
             href="#projects"
+            rel="noreferrer"
             className={`header__link ${
               activeNavLink === "projects" && "active"
             }`}
@@ -87,6 +91,7 @@ export default function Header() {
           </a>
           <a
             href="#contact"
+            rel="noreferrer"
             className={`header__link ${
               activeNavLink === "contact" && "active"
             }`}

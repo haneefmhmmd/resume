@@ -86,10 +86,13 @@
   color: rgba($color: $white, $alpha: 0.4);
   text-decoration: none;
   transition: 0.15s linear;
-  &:hover,
-  &.active {
-    color: $tertiary-color;
+  @include respond-above(tablet) {
+    &:hover,
+    &.active {
+      color: $tertiary-color;
+    }
   }
+
   @include respond-below(tablet) {
     font-weight: 500;
   }
