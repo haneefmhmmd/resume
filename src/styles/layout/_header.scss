@@ -27,27 +27,19 @@
 }
 
 .header__logo {
-  width: 48px;
-  height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $secondary-color;
-  border-radius: 50%;
-  font-size: 32px;
-  font-family: "Varela Round", sans-serif !important;
-  font-weight: 400;
-  font-style: normal;
-  color: $primary-color;
-  transition: 0.15s linear;
-  &:hover {
-    background-color: $tertiary-color;
+  &,
+  svg {
+    width: 48px;
+    height: 48px;
   }
-
+  border-radius: 50%;
+  @include gradient-animation;
   @include respond-below(tablet) {
-    width: 32px;
-    height: 32px;
-    font-size: 20px;
+    &,
+    svg {
+      width: 40px;
+      height: 40px;
+    }
   }
 }
 

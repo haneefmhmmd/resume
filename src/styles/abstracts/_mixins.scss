@@ -32,19 +32,31 @@ $break-points: (
     color: transparent;
   }
 
+  // background-image: linear-gradient(
+  //   to right,
+  //   #00f260,
+  //   #f79d00,
+  //   #27d2ca,
+  //   #64f38c
+  // );
   background-image: linear-gradient(
-    to right,
-    #00f260,
-    #f79d00,
-    #27d2ca,
-    #64f38c
+    90deg,
+    #40a7a4,
+    #41b29a,
+    #58bc87,
+    #7bc370,
+    #a3c756,
+    #cfc840,
+    #ffc337
   );
-  background-size: 300%;
-  background-position: -100%;
-  animation: animatedText 5s infinite alternate-reverse;
+  background-size: 400%;
+  animation: animatedText 5s infinite alternate;
   @keyframes animatedText {
-    to {
-      background-position: 100%;
+    0% {
+      background-position: left;
+    }
+    100% {
+      background-position: right;
     }
   }
 }

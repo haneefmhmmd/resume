@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { ReactComponent as CloseIcon } from "../assets/Close.svg";
 import { ReactComponent as Github } from "../assets/Github.svg";
 import { ReactComponent as Hamburger } from "../assets/Hamburger.svg";
+import { ReactComponent as HeaderLogo } from "../assets/HeaderLogo.svg";
 import { ReactComponent as Linkedin } from "../assets/Linkedin.svg";
 export default function Header() {
   const navLinkContainer = useRef(null);
@@ -33,7 +34,7 @@ export default function Header() {
     <header className="header__container">
       <div className="container header">
         <a href="#" className="header__logo">
-          H
+          <HeaderLogo />
         </a>
         <button
           aria-label="Toggle Header"
