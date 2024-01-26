@@ -1,6 +1,7 @@
 .hero {
   text-align: center;
   padding-top: 64px;
+
   h1 {
     font-size: 40px;
     font-weight: 600;
@@ -13,12 +14,14 @@
   h2 {
     font-size: 20px;
   }
+
   p {
     font-size: 16px;
     line-height: 1.4;
     max-width: 720px;
     margin: 16px auto 0;
   }
+
   .hero__cta {
     margin: 24px auto 0;
   }
