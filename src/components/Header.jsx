@@ -5,9 +5,10 @@ import { ReactComponent as Hamburger } from "../assets/Hamburger.svg";
 import { ReactComponent as HeaderLogo } from "../assets/HeaderLogo.svg";
 import { ReactComponent as Linkedin } from "../assets/Linkedin.svg";
 export default function Header() {
-  const navLinkContainer = useRef(null);
+  const headerContainer = useRef(null);
 
   const [activeNavLink, setActiveNavLink] = useState(null);
+
   function updateActiveNavLink() {
     const currentHash = window.location.hash.substring(1);
     setActiveNavLink(currentHash.toLocaleLowerCase());
@@ -16,22 +17,25 @@ export default function Header() {
     updateActiveNavLink();
     window.addEventListener("hashchange", updateActiveNavLink);
   }, []);
-  useEffect(() => {
-    if (
-      window.isMobile &&
-      navLinkContainer.current.classList.contains("show")
-    ) {
-      navLinkContainer.current.classList.toggle("show");
-    }
-  }, [activeNavLink]);
 
   const toggleBtnClickHandler = (e) => {
-    const linkContainer = document.getElementById("navlinks");
+    const linkContainer = document.getElementById("main-header");
     linkContainer.classList.toggle("show");
+  };
+  const handleNavContainerClickListener = (e) => {
+    const toggleBtn = document.getElementById("close-icon");
+    const linkContainer = document.getElementById("main-header");
+    if (!toggleBtn.contains(e.target)) {
+      linkContainer.classList.toggle("show");
+    }
   };
 
   return (
-    <header className="header__container">
+    <header
+      className="header__container"
+      ref={headerContainer}
+      id="main-header"
+    >
       <div className="container header">
         <a href="#home" rel="noreferrer" className="header__logo">
           <HeaderLogo />
@@ -40,21 +44,15 @@ export default function Header() {
           aria-label="Toggle Header"
           className="hamburger"
           onClick={toggleBtnClickHandler}
+          id="toggle-btn"
         >
           <Hamburger />
         </button>
         <nav
           className="header__link-container"
           id="navlinks"
-          ref={navLinkContainer}
+          onClick={handleNavContainerClickListener}
         >
-          {/* <a
-            href="#about"
-            className="header__link"
-            onClick={navLinkClickHandler}
-          >
-            About
-          </a> */}
           <a
             href="#skills"
             rel="noreferrer"
@@ -119,6 +117,7 @@ export default function Header() {
           <button
             aria-label="Close Header"
             className="close-icon"
+            id="close-icon"
             onClick={toggleBtnClickHandler}
           >
             <CloseIcon />
