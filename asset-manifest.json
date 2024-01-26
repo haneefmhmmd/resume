@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.76ffa757.css",
-    "main.js": "/resume/static/js/main.4cc32f8d.js",
+    "main.css": "/resume/static/css/main.ac52b1e8.css",
+    "main.js": "/resume/static/js/main.a58e2db1.js",
     "static/media/MySQL.svg": "/resume/static/media/MySQL.c9286640a470004f40f86d07817e890e.svg",
     "static/media/Node.js.svg": "/resume/static/media/Node.js.cccdafa931eebdaea49f5c5ac3ba232f.svg",
     "static/media/NextJS.svg": "/resume/static/media/NextJS.12ffc9c5898096598e51e8bcff3f2a02.svg",
     "static/media/Csharp.svg": "/resume/static/media/Csharp.7e5502c786806dcdb380fcbd7f3dffb2.svg",
     "static/media/Java.svg": "/resume/static/media/Java.5386b56c3206b6bd70b1053534d73dc3.svg",
     "static/media/Github.svg": "/resume/static/media/Github.8dd622dd6b9e969ba9c4e84e5a48d11d.svg",
+    "static/media/HeaderLogo.svg": "/resume/static/media/HeaderLogo.ceafcccbd4d6dd27877580695cd44cef.svg",
     "static/media/Linkedin.svg": "/resume/static/media/Linkedin.fa4d9423d20906bbfb161e4597cc931d.svg",
     "static/media/React.svg": "/resume/static/media/React.215ded0f945a5894c94810dd48a22910.svg",
     "index.html": "/resume/index.html",
@@ -21,12 +22,11 @@
     "static/media/Close.svg": "/resume/static/media/Close.d1f99ee550fd23dff11058e5869de728.svg",
     "static/media/Plus.svg": "/resume/static/media/Plus.15cdbca3dbc3c110803fcb91e3ba86ea.svg",
     "static/media/Hamburger.svg": "/resume/static/media/Hamburger.1aa843e432b2572e2ae1495c7359d01f.svg",
-    "static/media/Minus.svg": "/resume/static/media/Minus.2416efeafc39aa1843099286c5ff5780.svg",
-    "main.76ffa757.css.map": "/resume/static/css/main.76ffa757.css.map",
-    "main.4cc32f8d.js.map": "/resume/static/js/main.4cc32f8d.js.map"
+    "main.ac52b1e8.css.map": "/resume/static/css/main.ac52b1e8.css.map",
+    "main.a58e2db1.js.map": "/resume/static/js/main.a58e2db1.js.map"
   },
   "entrypoints": [
-    "static/css/main.76ffa757.css",
-    "static/js/main.4cc32f8d.js"
+    "static/css/main.ac52b1e8.css",
+    "static/js/main.a58e2db1.js"
   ]
 }
