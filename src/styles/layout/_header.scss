@@ -2,8 +2,9 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  padding: 20px 0;
-  background-color: $primary-color;
+  padding: 16px 0;
+  background-color: rgba($primary-color, 0.7);
+  backdrop-filter: blur(8px);
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
 }
 .header {
@@ -26,24 +27,19 @@
 }
 
 .header__logo {
-  width: 48px;
-  height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $secondary-color;
-  border-radius: 50%;
-  font-size: 32px;
-  font-weight: 700;
-  color: $primary-color;
-  transition: 0.15s linear;
-  &:hover {
-    background-color: $tertiary-color;
+  &,
+  svg {
+    width: 48px;
+    height: 48px;
   }
-
-  @include respond-above(tablet) {
-    width: 52px;
-    height: 52px;
+  border-radius: 50%;
+  @include gradient-animation;
+  @include respond-below(tablet) {
+    &,
+    svg {
+      width: 40px;
+      height: 40px;
+    }
   }
 }
 
@@ -62,7 +58,7 @@
     height: 0;
     overflow: hidden;
     position: fixed;
-    top: -100%;
+    top: calc(-100% - 40px);
     width: calc(100% - 20px);
     left: 50%;
     transform: translateX(-50%);
@@ -101,8 +97,8 @@
 
 .hamburger,
 .close-icon {
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
   padding: 4px;
   border-radius: 50%;
   background-color: $tertiary-color;

@@ -1,18 +1,18 @@
-.social-links{
-    display: flex;
-    justify-content: center;
-   & > * + *{
+.social-links {
+  display: flex;
+  justify-content: center;
+  & > * + * {
     margin-left: 16px;
-   }
+  }
 }
 
-.contact-form{
-    margin: 40px auto 0;
-    max-width: 480px;
-    .input-wrapper + .input-wrapper{
-        margin-top: 20px;
-    }
-    .submit-btn{    
-        margin: 28px auto 0;
-    }
+.contact-form {
+  margin: 40px auto 0;
+  max-width: 480px;
+  .input-wrapper + .input-wrapper {
+    margin-top: 20px;
+  }
+  .submit-btn {
+    margin: 28px auto 0;
+  }
 }

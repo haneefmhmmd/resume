@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { v4 as uuid } from "uuid";
-import { ReactComponent as Minus } from "../assets/Minus.svg";
 import { ReactComponent as Plus } from "../assets/Plus.svg";
 
 export default function Accordion({ data }) {
@@ -31,31 +30,29 @@ export default function Accordion({ data }) {
             >
               <Plus />
             </button>
-            <button
-              aria-label="Close Accordion"
-              className="btn btn--primary btn--rounded accordion__close-icon"
-            >
-              <Minus />
-            </button>
           </header>
           <div className="accordion__body">
-            {accordion.content.map((item) => {
-              if (Object.prototype.toString.call(item) === "[object Object]") {
+            <div>
+              {accordion.content.map((item) => {
+                if (
+                  Object.prototype.toString.call(item) === "[object Object]"
+                ) {
+                  return (
+                    <p className="accordion_content" key={uuid()}>
+                      <b>{item.heading}: </b>
+                      {item.content}
+                    </p>
+                  );
+                }
                 return (
-                  <p className="accordion_content" key={uuid()}>
-                    <b>{item.heading}: </b>
-                    {item.content}
-                  </p>
+                  <p
+                    className="accordion_content"
+                    key={uuid()}
+                    dangerouslySetInnerHTML={{ __html: item }}
+                  />
                 );
-              }
-              return (
-                <p
-                  className="accordion_content"
-                  key={uuid()}
-                  dangerouslySetInnerHTML={{ __html: item }}
-                />
-              );
-            })}
+              })}
+            </div>
           </div>
         </article>
       ))}

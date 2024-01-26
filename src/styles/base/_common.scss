@@ -7,8 +7,9 @@
 a {
   text-decoration: none;
 }
-b{
-  font-weight: 500;
+b,
+strong {
+  font-weight: 600;
 }
 body {
   box-sizing: border-box;
@@ -16,8 +17,8 @@ body {
   color: $secondary-color;
 }
 
-html{
-  scroll-padding-top : 110px;
+html {
+  scroll-padding-top: 110px;
   scroll-behavior: smooth;
 }
 

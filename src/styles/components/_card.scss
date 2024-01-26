@@ -8,11 +8,6 @@
     background-color: $tertiary-color;
     box-shadow: $box-shadow-white;
   }
-
-  & > * + * {
-    margin-top: 12px;
-  }
-
   &__img {
     img {
       width: 100%;
@@ -25,11 +20,16 @@
     color: $primary-color;
   }
   &__title {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
   }
   &__desc {
-    font-size: 16px;
-    line-height: 1.2;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 4px;
+    b {
+      font-weight: 500;
+    }
   }
 }
