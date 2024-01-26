@@ -1,19 +1,5 @@
 .section {
   margin-top: 64px;
-  // &:hover {
-  //   .section__title {
-  //     /* Create the gradient. */
-  //     background-image: $hover-gradient;
-
-  //     /* Set the background size and repeat properties. */
-  //     background-size: 100%;
-  //     background-repeat: repeat;
-  //     -webkit-background-clip: text;
-  //     -webkit-text-fill-color: transparent;
-  //     -moz-background-clip: text;
-  //     -moz-text-fill-color: transparent;
-  //   }
-  // }
 }
 
 .section__header {
@@ -27,4 +13,5 @@
   transition: background-image 0.15s linear;
   background-image: $primary-color;
   color: $secondary-color;
+  padding: 2px;
 }

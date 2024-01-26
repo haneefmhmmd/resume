@@ -1,7 +1,7 @@
-@use 'sass:map';
+@use "sass:map";
 $break-points: (
-  'tablet': 768px,
-  'tablet-lg': 1080px
+  "tablet": 768px,
+  "tablet-lg": 1080px,
 );
 @mixin respond-below($break-point) {
   @if map.has-key($break-points, $break-point) == true {
@@ -22,5 +22,29 @@ $break-points: (
     }
   } @else {
     @error "Break-point #{$break-point} is part of the defined break-points";
+  }
+}
+
+@mixin gradient-animation($isText: false) {
+  @if $isText {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  background-image: linear-gradient(
+    to right,
+    #00f260,
+    #f79d00,
+    #27d2ca,
+    #64f38c
+  );
+  background-size: 300%;
+  background-position: -100%;
+  animation: animatedText 5s infinite alternate-reverse;
+  @keyframes animatedText {
+    to {
+      background-position: 100%;
+    }
   }
 }

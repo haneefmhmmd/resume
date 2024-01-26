@@ -2,7 +2,7 @@
   padding: 12px;
   display: inline-flex;
   align-items: center;
-  background-image: linear-gradient($secondary-color, $secondary-color);
+  background-color: $secondary-color;
   color: $primary-color;
   border-radius: 12px;
   font-size: 14px;
@@ -16,6 +16,6 @@
     margin-left: 4px;
   }
   &:hover {
-    background-image: $hover-gradient;
+    @include gradient-animation;
   }
 }

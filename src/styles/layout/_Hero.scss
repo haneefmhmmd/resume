@@ -6,7 +6,10 @@
     font-weight: 600;
     margin-top: 8px;
     font-family: "Varela Round", sans-serif !important;
+    background-color: transparent;
+    @include gradient-animation($isText: true);
   }
+
   h2 {
     font-size: 20px;
   }
