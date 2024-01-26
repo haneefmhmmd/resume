@@ -32,23 +32,13 @@ $break-points: (
     color: transparent;
   }
 
-  // background-image: linear-gradient(
-  //   to right,
-  //   #00f260,
-  //   #f79d00,
-  //   #27d2ca,
-  //   #64f38c
-  // );
   background-image: linear-gradient(
-    90deg,
-    #40a7a4,
-    #41b29a,
-    #58bc87,
-    #7bc370,
-    #a3c756,
-    #cfc840,
-    #ffc337
+    to left,
+    #1962cf 0%,
+    #00ff00 50%,
+    #cf1512 100%
   );
+
   background-size: 400%;
   animation: animatedText 5s infinite alternate;
   @keyframes animatedText {
