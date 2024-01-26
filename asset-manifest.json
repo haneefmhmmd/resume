@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.ac52b1e8.css",
-    "main.js": "/resume/static/js/main.a58e2db1.js",
+    "main.css": "/resume/static/css/main.fae122e0.css",
+    "main.js": "/resume/static/js/main.3a5a548d.js",
     "static/media/MySQL.svg": "/resume/static/media/MySQL.c9286640a470004f40f86d07817e890e.svg",
     "static/media/Node.js.svg": "/resume/static/media/Node.js.cccdafa931eebdaea49f5c5ac3ba232f.svg",
     "static/media/NextJS.svg": "/resume/static/media/NextJS.12ffc9c5898096598e51e8bcff3f2a02.svg",
@@ -22,11 +22,11 @@
     "static/media/Close.svg": "/resume/static/media/Close.d1f99ee550fd23dff11058e5869de728.svg",
     "static/media/Plus.svg": "/resume/static/media/Plus.15cdbca3dbc3c110803fcb91e3ba86ea.svg",
     "static/media/Hamburger.svg": "/resume/static/media/Hamburger.1aa843e432b2572e2ae1495c7359d01f.svg",
-    "main.ac52b1e8.css.map": "/resume/static/css/main.ac52b1e8.css.map",
-    "main.a58e2db1.js.map": "/resume/static/js/main.a58e2db1.js.map"
+    "main.fae122e0.css.map": "/resume/static/css/main.fae122e0.css.map",
+    "main.3a5a548d.js.map": "/resume/static/js/main.3a5a548d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac52b1e8.css",
-    "static/js/main.a58e2db1.js"
+    "static/css/main.fae122e0.css",
+    "static/js/main.3a5a548d.js"
   ]
 }
