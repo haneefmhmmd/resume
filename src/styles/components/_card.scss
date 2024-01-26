@@ -1,13 +1,12 @@
 .card {
-  padding: 16px 16px 24px;
+  padding: 16px;
   background-color: $secondary-color;
   border-radius: 12px;
-  transition: 0.15s linear background-color;
+
+  @include glassmorphic-bg;
+
   width: 100%;
-  &:hover {
-    background-color: $tertiary-color;
-    box-shadow: $box-shadow-white;
-  }
+
   &__img {
     img {
       width: 100%;
@@ -17,7 +16,7 @@
   }
   &__title,
   &__desc {
-    color: $primary-color;
+    color: $secondary-color;
   }
   &__title {
     font-size: 16px;
