@@ -51,7 +51,7 @@ $break-points: (
   }
 }
 
-@mixin glassmorphic-bg() {
+@mixin glassmorphic-bg($hover-effect: true) {
   color: $secondary-color;
 
   backdrop-filter: blur(25px) saturate(200%);
@@ -61,10 +61,12 @@ $break-points: (
   border: 1px solid rgba(255, 255, 255, 0.125);
   box-shadow: $box-shadow-default;
   transition: 0.15s linear all;
-  @include respond-above(tablet) {
-    &:hover {
-      background: $bg-gradient;
-      box-shadow: 5px 5px 10px #13171c, -5px -5px 10px #191f24;
+  @if $hover-effect {
+    @include respond-above(tablet) {
+      &:hover {
+        background: $bg-gradient;
+        box-shadow: 5px 5px 10px #13171c, -5px -5px 10px #191f24;
+      }
     }
   }
 }

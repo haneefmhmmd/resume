@@ -19,16 +19,18 @@ button {
     align-items: center;
     min-width: 180px;
     border: 1px solid $secondary-color;
-    background-color: $secondary-color;
-    box-shadow: $box-shadow-default;
-    transition: 0.15s linear all;
+    // background-color: $secondary-color;
+    // box-shadow: $box-shadow-default;
+    // transition: 0.15s linear all;
+
+    @include glassmorphic-bg;
 
     &:hover {
-      background-color: #14181d;
-      box-shadow: $box-shadow-white;
-      & > * {
-        color: $secondary-color;
-      }
+      // background-color: #14181d;
+      // box-shadow: $box-shadow-white;
+      // & > * {
+      //   color: $secondary-color;
+      // }
     }
     &:active {
       background-color: $white;
@@ -59,7 +61,7 @@ button {
   &__label {
     font-size: 14px;
     font-weight: 500;
-    color: $primary-color;
+    color: $secondary-color;
     text-align: center;
   }
 }
