@@ -74,11 +74,11 @@
     width: calc(100% - 20px);
     top: 8px;
     left: 8px;
-    transform-origin: calc(100% - 16px) 16px;
+    transform-origin: top right;
 
     scale: 0;
     @include glassmorphic-bg;
-    transition: 0.4s linear all;
+    transition: 0.4s linear scale;
 
     & > * + * {
       margin-top: 20px;
