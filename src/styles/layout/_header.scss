@@ -38,6 +38,8 @@
 }
 
 .header__logo {
+  border-radius: 50%;
+  box-shadow: $box-shadow-default;
   &,
   svg {
     width: 48px;
@@ -75,6 +77,7 @@
     transform: translateX(-50%);
 
     @include glassmorphic-bg;
+    transition: 0.15s linear all;
 
     padding: 80px 20px 20px;
     & > * + * {
@@ -105,15 +108,14 @@
 
 .hamburger,
 .close-icon {
-  width: 32px;
-  height: 32px;
-  padding: 4px;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  @include glassmorphic-bg;
   border-radius: 50%;
-  background-color: $tertiary-color;
   display: flex;
   align-items: center;
   justify-content: center;
-
   @include respond-above(tablet) {
     display: none;
   }
