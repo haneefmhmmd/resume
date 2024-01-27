@@ -7,13 +7,9 @@ $white-100: rgba(255, 255, 255, 0.926);
 $red: #dd2727;
 $orange: #e65000;
 
-$box-shadow-white: 0px 4px 20px 0px rgba(#ffffff, 0.25);
+$box-shadow-default: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+$box-shadow-white: 0px 0px 4px 0px rgba(#ffffff, 0.25);
 
 $hover-gradient: linear-gradient(45deg, #64f38c, #f79d00, #00f260);
-//   background-image: linear-gradient(
-//       to right,
-//       #00f260,
-//       #27d2ca,
-//       #0575e6,
-//       #64f38c
-//     );
+
+$bg-gradient: linear-gradient(to right, #14181d, #181d22);

@@ -4,25 +4,20 @@
 }
 
 .input {
-  background-color: $secondary-color;
-  color: $primary-color;
+  @include glassmorphic-bg;
   font-size: 16px;
   line-height: 24px;
   padding: 12px 16px;
   border-radius: 12px;
   outline: none;
   border: none;
-  &:hover,
-  &:focus {
-    background-color: $tertiary-color;
-  }
 }
 .input--textarea {
   resize: none;
 }
 .input::selection {
-  background-color: $primary-color;
-  color: $secondary-color;
+  background-color: $tertiary-color;
+  color: $primary-color;
 }
 
 .input-wrapper {

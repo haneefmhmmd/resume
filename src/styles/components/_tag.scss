@@ -2,12 +2,14 @@
   padding: 12px;
   display: inline-flex;
   align-items: center;
-  background-color: $secondary-color;
+  // background-color: $secondary-color;
   color: $primary-color;
   border-radius: 12px;
   font-size: 14px;
   font-weight: 500;
   transition: 0.35s linear all;
+
+  @include glassmorphic-bg;
   svg {
     width: 32px;
     height: 32px;
