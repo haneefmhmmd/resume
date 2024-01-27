@@ -2,7 +2,7 @@
     "hero": {
         "headline": "Hey there! My name is",
         "name": "Haneef Muhammad!",
-        "desc": "I'm an experienced front-end developer specialized in crafting performant and scalable websites and web applications. With expertise in HTML, CSS, JavaScript, and ReactJS, I create seamless and engaging web experiences.",
+        "desc": "I'm an experienced front-end developer specialized in crafting performant and scalable websites and web applications. With expertise in HTML, CSS, JavaScript, Angular and ReactJS, I create seamless and engaging web experiences.",
         "cta": {
             "href": "#contact",
             "text": "Contact Me"
