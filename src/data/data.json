@@ -57,7 +57,7 @@
                 "content": [
                     "• <b>Learned</b> about web development technologies such as HTML, CSS, SCSS, JavaScript and build tools such as gulp, webpack and developed 5 email templates, 4 web pages and 3 web apps.",
                     "• <b>Implemented</b> performance improvements techniques such as minification and compression of html, css and js files, optimizing images, identifying and reducing layout shifts, lazy loading less-priority and below the fold assets, preloading high priority assets on the developed sites",
-                    "• <b>Reference:</b> <a href='https://github.com/haneefmhmmd/Full-Creative' target='_blank'>https://github.com/haneefmhmmd/Full-Creative</a>",
+                    "• <b>Reference:</b> <a href='https://github.com/haneefmhmmd/Full-Creative' target='_blank' class='link'>https://github.com/haneefmhmmd/Full-Creative</a>",
                     "• <b>Note:</b> Due to college examinations, I had to take a break from internship in the month of September. So my internship duration is in total 3 months."
                 ]
             }
