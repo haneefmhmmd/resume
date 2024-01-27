@@ -19,5 +19,6 @@
   }
   &:hover {
     @include gradient-animation;
+    cursor: default;
   }
 }
