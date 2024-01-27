@@ -63,7 +63,7 @@ $break-points: (
   transition: 0.15s linear all;
   @include respond-above(tablet) {
     &:hover {
-      background: $glassmorphic-bg-gradient;
+      background: $bg-gradient;
       box-shadow: 5px 5px 10px #13171c, -5px -5px 10px #191f24;
     }
   }

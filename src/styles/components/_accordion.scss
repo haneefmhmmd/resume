@@ -13,7 +13,7 @@
 
   cursor: pointer;
   &.open {
-    background: $glassmorphic-bg-gradient;
+    background: $bg-gradient;
     .accordion__open-icon {
       transform: rotate(-45deg);
       background-color: $secondary-color;

@@ -6,7 +6,7 @@ button {
 }
 
 .btn {
-  padding: 8px 16px;
+  padding: 12px 16px;
   border-radius: 8px;
   cursor: pointer;
   @include respond-below(tablet) {
@@ -17,12 +17,18 @@ button {
     width: fit-content;
     justify-content: center;
     align-items: center;
+    min-width: 180px;
+    border: 1px solid $secondary-color;
     background-color: $secondary-color;
-    box-shadow: rgba(255, 255, 255, 0.12) 0px 1px 3px,
-      rgba(255, 255, 255, 0.24) 0px 1px 2px;
-    transition: 0.15s linear background-color;
+    box-shadow: $box-shadow-default;
+    transition: 0.15s linear all;
+
     &:hover {
-      background-color: $tertiary-color;
+      background-color: #14181d;
+      box-shadow: $box-shadow-white;
+      & > * {
+        color: $secondary-color;
+      }
     }
     &:active {
       background-color: $white;
@@ -34,11 +40,20 @@ button {
   }
 
   &--rounded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 32px;
     height: 32px;
+    min-width: 0;
     padding: 0;
     justify-content: center;
     border-radius: 50%;
+    background-color: $secondary-color;
+    box-shadow: $box-shadow-default;
+    &:hover {
+      box-shadow: $box-shadow-white;
+    }
   }
 
   &__label {

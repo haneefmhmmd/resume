@@ -26,7 +26,7 @@ export default function Accordion({ data }) {
             <h3 className="accordion__title">{accordion.title}</h3>
             <button
               aria-label="Open Accordion"
-              className="btn btn--primary btn--rounded accordion__open-icon"
+              className="btn btn--rounded accordion__open-icon"
             >
               <Plus />
             </button>
