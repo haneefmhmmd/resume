@@ -10,10 +10,9 @@
   @include respond-below(tablet) {
     &.show {
       backdrop-filter: initial;
+
       .header__link-container {
-        height: calc(100vh - 20px);
-        padding: 80px 20px 20px;
-        top: 8px;
+        scale: 1;
       }
     }
   }
@@ -68,18 +67,19 @@
   @include respond-below(tablet) {
     flex-direction: column;
     display: flex;
-    height: 0;
-    overflow: hidden;
     position: fixed;
-    top: calc(-100% - 40px);
-    width: calc(100% - 20px);
-    left: 50%;
-    transform: translateX(-50%);
-
-    @include glassmorphic-bg;
-    transition: 0.15s linear all;
-
+    z-index: 100;
     padding: 80px 20px 20px;
+    height: calc(100vh - 20px);
+    width: calc(100% - 20px);
+    top: 8px;
+    left: 8px;
+    transform-origin: calc(100% - 16px) 16px;
+
+    scale: 0;
+    @include glassmorphic-bg;
+    transition: 0.4s linear all;
+
     & > * + * {
       margin-top: 20px;
     }
