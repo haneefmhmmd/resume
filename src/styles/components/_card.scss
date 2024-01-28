@@ -31,4 +31,10 @@
       font-weight: 500;
     }
   }
+  &__action {
+    margin-top: 12px;
+    & > * {
+      width: 100%;
+    }
+  }
 }
