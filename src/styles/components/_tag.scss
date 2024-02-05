@@ -18,7 +18,7 @@
     margin-left: 4px;
   }
   &:hover {
-    @include gradient-animation;
+    // @include gradient-animation;
     cursor: default;
   }
 }

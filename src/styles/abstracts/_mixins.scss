@@ -25,22 +25,17 @@ $break-points: (
   }
 }
 
-@mixin gradient-animation($isText: false) {
+@mixin gradient-animation($isText: false, $isAnimatable: true) {
   @if $isText {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
 
-  background-image: linear-gradient(
-    to left,
-    #1962cf 0%,
-    #00ff00 50%,
-    #cf1512 100%
-  );
+  background-image: linear-gradient(to left, #1962cf 0%, #00ff00 100%);
 
-  background-size: 400%;
-  animation: animatedText 5s infinite alternate;
+  // background-size: 400%;
+  // animation: animatedText 5s infinite alternate;
   @keyframes animatedText {
     0% {
       background-position: left;
@@ -60,10 +55,9 @@ $break-points: (
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   box-shadow: $box-shadow-default;
-
+  transition: 0.35s ease-in all;
   @if $hover-effect {
     @include respond-above(tablet) {
-      transition: 0.15s linear all;
       &:hover {
         background: $bg-gradient;
         box-shadow: 5px 5px 10px #13171c, -5px -5px 10px #191f24;
