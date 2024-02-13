@@ -3,12 +3,17 @@
   padding-top: 64px;
 
   h1 {
-    font-size: 40px;
-    font-weight: 600;
     margin-top: 8px;
-    font-family: "Varela Round", sans-serif !important;
     background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     @include gradient-animation($isText: true);
+    & > * {
+      font-size: 40px;
+      font-weight: 600;
+      font-family: "Varela Round", sans-serif !important;
+    }
   }
 
   h2 {

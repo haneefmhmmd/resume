@@ -33,3 +33,11 @@ html {
 .link {
   color: #2a8178;
 }
+
+.curson-blinker {
+  width: 3px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 12px;
+  background-image: linear-gradient(to left, #1962cf 0%, #00ff00 100%);
+}
