@@ -5,14 +5,22 @@
   h1 {
     margin-top: 8px;
     background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     @include gradient-animation($isText: true);
     & > * {
       font-size: 40px;
       font-weight: 600;
       font-family: "Varela Round", sans-serif !important;
+    }
+    @include respond-above(tablet) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @include respond-below(tablet) {
+      height: 80px;
+      & > * {
+        vertical-align: middle;
+      }
     }
   }
 
@@ -29,5 +37,19 @@
 
   .hero__cta {
     margin: 24px auto 0;
+  }
+}
+
+.animated-hello {
+  font-size: 28px;
+  display: inline-block;
+}
+
+@keyframes hello_animation {
+  from {
+    transform: rotate(-30deg);
+  }
+  to {
+    transform: rotate(30deg);
   }
 }

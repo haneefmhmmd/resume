@@ -6,9 +6,28 @@ import TypingText from "./TypingText";
 
 export default function Hero() {
   const { hero: data } = useContext(ContentContext);
+
+  const animatedhello = {};
+
   return (
     <section className="container hero" id="#">
-      <h2>{data.headline}</h2>
+      <h2>
+        <motion.span
+          role="img"
+          aria-label="Waving hand"
+          animate={{ rotateZ: -30, rotateZ: 30 }}
+          transition={{
+            duration: 1,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatType: "reverse",
+          }}
+          className="animated-hello"
+        >
+          👋
+        </motion.span>{" "}
+        {data.headline}
+      </h2>
       <motion.h1>
         <TypingText text={data.name} />
         <CursorBlinker />

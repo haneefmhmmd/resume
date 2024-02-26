@@ -4,7 +4,6 @@ import { useEffect } from "react";
 export default function TypingText({ text }) {
   const textIndex = useMotionValue(0);
   const texts = [text];
-  console.log(texts);
 
   const baseText = useTransform(textIndex, (latest) => texts[latest] || "");
   const count = useMotionValue(0);
@@ -35,7 +34,6 @@ export default function TypingText({ text }) {
         }
       },
     });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return <motion.span>{displayText}</motion.span>;
