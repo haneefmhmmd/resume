@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.61148674.css",
-    "main.js": "/resume/static/js/main.9cdf48fb.js",
+    "main.css": "/resume/static/css/main.d8cea6b5.css",
+    "main.js": "/resume/static/js/main.f6e95192.js",
     "static/media/MySQL.svg": "/resume/static/media/MySQL.c9286640a470004f40f86d07817e890e.svg",
     "static/media/Node.js.svg": "/resume/static/media/Node.js.cccdafa931eebdaea49f5c5ac3ba232f.svg",
-    "static/media/NextJS.svg": "/resume/static/media/NextJS.12ffc9c5898096598e51e8bcff3f2a02.svg",
+    "static/media/NextJS.svg": "/resume/static/media/NextJS.5d3433ffbc9388e4afef064e3e68a456.svg",
     "static/media/Csharp.svg": "/resume/static/media/Csharp.7e5502c786806dcdb380fcbd7f3dffb2.svg",
     "static/media/Java.svg": "/resume/static/media/Java.5386b56c3206b6bd70b1053534d73dc3.svg",
     "static/media/Github.svg": "/resume/static/media/Github.8dd622dd6b9e969ba9c4e84e5a48d11d.svg",
@@ -22,11 +22,11 @@
     "static/media/Close.svg": "/resume/static/media/Close.8349b4cacc9fc816e525b9ae9ebf06b5.svg",
     "static/media/Plus.svg": "/resume/static/media/Plus.15cdbca3dbc3c110803fcb91e3ba86ea.svg",
     "static/media/Hamburger.svg": "/resume/static/media/Hamburger.e8710234dcde260269a1e42b37510c4c.svg",
-    "main.61148674.css.map": "/resume/static/css/main.61148674.css.map",
-    "main.9cdf48fb.js.map": "/resume/static/js/main.9cdf48fb.js.map"
+    "main.d8cea6b5.css.map": "/resume/static/css/main.d8cea6b5.css.map",
+    "main.f6e95192.js.map": "/resume/static/js/main.f6e95192.js.map"
   },
   "entrypoints": [
-    "static/css/main.61148674.css",
-    "static/js/main.9cdf48fb.js"
+    "static/css/main.d8cea6b5.css",
+    "static/js/main.f6e95192.js"
   ]
 }
