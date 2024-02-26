@@ -1,15 +1,15 @@
-$primary-color: #161b20;
-$secondary-color: #fbfbfb;
-$tertiary-color: #dcf8ff;
+$primary-color: #020015;
+$secondary-color: #d7d7db;
+$tertiary-color: #181734;
 $black: #000000;
 $white: #fbfbfb;
 $white-100: rgba(255, 255, 255, 0.926);
 $red: #dd2727;
 $orange: #e65000;
 
-$box-shadow-default: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-$box-shadow-white: 0px 0px 4px 0px rgba(#ffffff, 0.25);
+$box-shadow-default: 0px 0px 2px 3px rgba(#a867fe, 0.1);
+$box-shadow-hover: 0px 0px 4px 0px rgba(#d183fe, 0.25);
 
 $hover-gradient: linear-gradient(45deg, #64f38c, #f79d00, #00f260);
 
-$bg-gradient: linear-gradient(to right, #14181d, #181d22);
+$bg-gradient: linear-gradient(to right, #020015, #0c0624);

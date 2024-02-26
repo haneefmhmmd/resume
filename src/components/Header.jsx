@@ -37,7 +37,7 @@ export default function Header() {
       id="main-header"
     >
       <div className="container header">
-        <a href="#home" rel="noreferrer" className="header__logo">
+        <a href="#" rel="noreferrer" className="header__logo">
           <HeaderLogo />
         </a>
         <button

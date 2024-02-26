@@ -4,11 +4,14 @@
 }
 
 .input {
-  @include glassmorphic-bg;
+  // @include glassmorphic-bg;
+  background: $tertiary-color;
+
   font-size: 16px;
   line-height: 24px;
   padding: 12px 16px;
   border-radius: 12px;
+  color: $white;
   outline: none;
   border: none;
 }
@@ -16,7 +19,7 @@
   resize: none;
 }
 .input::selection {
-  background-color: $tertiary-color;
+  background-color: $secondary-color;
   color: $primary-color;
 }
 
