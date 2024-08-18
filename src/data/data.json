@@ -128,10 +128,10 @@
     },
     "projects": [
         {
-            "src": "https://raw.githubusercontent.com/DineHub-Restaurant-Reservation-App/dinehub-frontend/master/snapshots/home-page.png",
-            "link": "https://github.com/orgs/DineHub-Restaurant-Reservation-App/repositories",
+            "src": "https://raw.githubusercontent.com/DineHub-Restaurant-Reservation-App/dinehub-frontend/master/src/assets/images/logo-group.png",
+            "link": "https://dinehub-b2bf.onrender.com/",
             "title": "DineHub",
-            "desc": "<b>Tech-Stack:</b> HTML, SCSS, Angular, Angular Material, Spring Boot, MySQL"
+            "desc": "<b>Tech-Stack:</b> HTML, SCSS, Angular, Angular Material, Express.js, MongoDB"
         },
         {
             "src": "https://raw.githubusercontent.com/Simply-Organic/simply-organic/master/simply-organic-logo.png",
