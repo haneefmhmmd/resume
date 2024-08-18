@@ -28,10 +28,10 @@ export default function Hero() {
         </motion.span>{" "}
         {data.headline}
       </h2>
-      <motion.h1>
-        <TypingText text={data.name} />
+      <h1>
+        <span>{data.name}</span> {" "}
         <CursorBlinker />
-      </motion.h1>
+      </h1>
 
       <p>{data.desc}</p>
       <a className="btn btn--primary hero__cta" href={data.cta.href}>
