@@ -30,6 +30,25 @@
         "title": "Experience",
         "list": [
             {
+                "title": "Student Researcher/Coop",
+                "content": [
+                    {
+                        "heading": "Company",
+                        "content": "WIMTACH"
+                    },
+                    {
+                        "heading": "Duration",
+                        "content": "Feb 2024 - Present"
+                    },
+                    "• Developed interactive features in Angular 17 for an interactive simulation application, providing students with realistic insights based on their choices",
+                    "• Implemented dynamic animations and visualizations, improving user engagement",
+                    "• Migrated multiple projects from Angular 12 to Angular 15, meticulously ensuring seamless integration with existing technologies",
+                    "• Created filter features for a CMS, streamlining content management for creators",
+                    "• Ensured EEA compliance with a consent banner for Google services, boosting data protection",
+                    "• Delivered sprint presentations, effectively communicating project progress"
+                ]
+            },
+            {
                 "title": "Junior Software Engineer - Coop",
                 "content": [
                     {
